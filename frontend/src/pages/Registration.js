@@ -1,11 +1,11 @@
-// src/pages/Contact.js
+// src/pages/Registration.js
 import React, { useState } from "react";
 
-const Contact = () => {
+const Registration = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    message: "",
+    ticketType: "Standard",
   });
 
   const handleChange = (e) => {
@@ -14,13 +14,13 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert(`Thank you, ${formData.name}, for reaching out!`);
-    // Handle form submission (e.g., send data to an API or email)
+    alert(`Thank you for registering, ${formData.name}!`);
+    // Handle form submission for registration
   };
 
   return (
     <div>
-      <h2>Contact Us</h2>
+      <h2>Register for ICREP 2024</h2>
       <form onSubmit={handleSubmit}>
         <label>
           Name:
@@ -41,17 +41,20 @@ const Contact = () => {
           />
         </label>
         <label>
-          Message:
-          <textarea
-            name="message"
-            value={formData.message}
+          Ticket Type:
+          <select
+            name="ticketType"
+            value={formData.ticketType}
             onChange={handleChange}
-          />
+          >
+            <option value="Standard">Standard</option>
+            <option value="VIP">VIP</option>
+          </select>
         </label>
-        <button type="submit">Submit</button>
+        <button type="submit">Register</button>
       </form>
     </div>
   );
 };
 
-export default Contact;
+export default Registration;

@@ -1,13 +1,13 @@
 // src/pages/Home.js
 import React from "react";
 
-function Home() {
+const Home = () => {
   return (
     <div>
-      <h1>Welcome to ICREP</h1>
-      <p>This is the homepage.</p>
+      <h2>Welcome to ICREP 2024</h2>
+      <p>International Conference on Renewable Energy & Power</p>
     </div>
   );
-}
+};
 
 export default Home;
