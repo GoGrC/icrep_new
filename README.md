@@ -33,25 +33,3 @@ To set up the project locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/icrep-2024-website.git
 
-icrep-2024-website/
-├── public/                     # Public assets like HTML and favicon
-│   └── index.html              # Main HTML file
-├── src/                        # Source files
-│   ├── components/             # Reusable components
-│   │   ├── Header.js           # Header component
-│   │   └── Footer.js           # Footer component
-│   ├── pages/                  # Page components for different sections
-│   │   ├── Home.js             # Home page component
-│   │   ├── About.js            # About page component
-│   │   ├── Conference.js       # Conference details page component
-│   │   ├── Contact.js          # Contact page component
-│   │   ├── Speakers.js         # Speakers page component
-│   │   ├── Sponsors.js         # Sponsors page component
-│   │   └── Registration.js     # Registration page component
-│   ├── App.js                  # Main application component with routing
-│   ├── App.css                 # Global and page-specific styles
-│   └── index.js                # Application entry point
-├── .gitignore                  # Files and folders to ignore in git
-├── package.json                # Project metadata and dependencies
-└── README.md                   # Project documentation
-
