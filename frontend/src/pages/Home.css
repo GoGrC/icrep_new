@@ -1,0 +1,24 @@
+/* src/pages/Home.css */
+
+.home {
+  font-family: Arial, sans-serif;
+}
+
+.main-content {
+  padding: 20px;
+  max-width: 800px; /* Set a maximum width for better readability */
+  margin: 0 auto; /* Center the content */
+}
+
+.about-section,
+.events-section {
+  margin-top: 20px;
+}
+
+h2 {
+  color: #004d99; /* A nice color for headings */
+}
+
+h3 {
+  color: #333; /* Darker color for subheadings */
+}

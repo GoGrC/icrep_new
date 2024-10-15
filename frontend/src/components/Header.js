@@ -1,16 +1,39 @@
 // src/components/Header.js
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Header.css"; // Assuming you have styles for your header
 
 const Header = () => {
   return (
-    <header>
-      <h1>ICREP</h1>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/conference">Conference</Link>
-        <Link to="/contact">Contact</Link>
+    <header className="header">
+      <div className="logo">
+        <img src="/path/to/your/logo.png" alt="ICREP Logo" />{" "}
+        {/* Update with your logo path */}
+      </div>
+      <nav className="nav">
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/about">About Us</Link>
+          </li>
+          <li>
+            <Link to="/courses">Courses</Link>
+          </li>
+          <li>
+            <Link to="/team">Team</Link>
+          </li>
+          <li>
+            <Link to="/activities">Activities</Link>
+          </li>
+          <li>
+            <Link to="/downloads">Downloads</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact Us</Link>
+          </li>
+        </ul>
       </nav>
     </header>
   );
