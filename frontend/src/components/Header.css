@@ -1,5 +1,3 @@
-/* src/components/Header.css */
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -22,9 +20,10 @@
 
 .nav li {
   margin: 0 15px; /* Space between menu items */
+  position: relative; /* Needed for absolute positioning of the dropdown */
 }
 
-.nav a {
+.nav a  {
   color: white; /* Link color */
   text-decoration: none; /* Remove underline */
   font-weight: bold; /* Bold text */
@@ -34,3 +33,9 @@
 .nav a:hover {
   color: #ffcc00; /* Change color on hover */
 }
+
+
+
+
+
+
