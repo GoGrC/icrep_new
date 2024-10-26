@@ -9,6 +9,7 @@ import Blog from "./components/blog/Blog";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/common/footer/Footer";
 import Home from "./components/home/Home";
+import Dirmssg from "./pages/Dirmssg";
 
 function App() {
   return (
@@ -23,8 +24,9 @@ function App() {
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/journal" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/Dirmssg" element={<Dirmssg/>}/>
         </Routes>
-        <Footer />
+        <Footer/>
       </Router>
     </>
   );
