@@ -20,9 +20,9 @@ const Footer = () => {
       <footer>
         <div className='container padding'>
           <div className='box logo'>
-            <h1>ACADEMIA</h1>
-            <span>ONLINE EDUCATION & LEARNING</span>
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            <h1>ICREP</h1>
+            <span>'An inter university centre of excellece'</span>
+            <p>Undertakes research and academic programs in the field of bioethics as well as in all areas of application of research ethics.</p>
 
             <i className='fab fa-facebook-f icon'></i>
             <i className='fab fa-twitter icon'></i>
@@ -31,21 +31,25 @@ const Footer = () => {
           <div className='box link'>
             <h3>Explore</h3>
             <ul>
+              <li>Home</li>
               <li>About Us</li>
-              <li>Services</li>
               <li>Courses</li>
-              <li>Blog</li>
+              <li>Team</li>
               <li>Contact us</li>
+              <li>Blog</li>
             </ul>
           </div>
           <div className='box link'>
             <h3>Quick Links</h3>
             <ul>
-              <li>Contact Us</li>
-              <li>Pricing</li>
-              <li>Terms & Conditions</li>
-              <li>Privacy</li>
-              <li>Feedbacks</li>
+              <li>JSTOR</li>
+              <li>Manupatra</li>
+              <li>D-Space</li>
+              <li>E-Pathshala</li>
+              <li>Swayam</li>
+              <li>National Service Scheme</li>
+              <li>Youth Welfare</li>
+              <li>Equal Opportunity Cell</li>
             </ul>
           </div>
           <div className='box'>
@@ -74,15 +78,15 @@ const Footer = () => {
             <ul>
               <li>
                 <i className='fa fa-map'></i>
-                203 Fake St. Mountain View, San Francisco, California, USA
+                Cochin University of Science and Technology<br/> Cochin University P.O.<br/>Kalamassery, Kochi <br/>Kerala- 682022 <br/>India
               </li>
               <li>
                 <i className='fa fa-phone-alt'></i>
-                +2 392 3929 210
+                 +91 80780 19688
               </li>
               <li>
                 <i className='fa fa-paper-plane'></i>
-                info@yourdomain.com
+                icrep@cusat.ac.in 
               </li>
             </ul>
           </div>
@@ -90,7 +94,8 @@ const Footer = () => {
       </footer>
       <div className='legal'>
         <p>
-          Copyright ©2022 All rights reserved | This template is made with <i className='fa fa-heart'></i> by GorkhCoder
+        Copyright © 2019 All Rights Reserved PROF. N. R. MADHAVA MENON INTERDISCIPLINARY CENTRE FOR RESEARCH ETHICS AND PROTOCOLS, Cochin University of Science and Technology, Kerala, India
+<i className='fa fa-heart'></i>DESIGNED, DEVELOPED AND MAINTAINED BY 🚩 ICREPTEAM 🚩 
         </p>
       </div>
     </>
