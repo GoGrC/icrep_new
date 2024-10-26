@@ -65,7 +65,7 @@ const Footer = () => {
           Note: The information uploaded on the website of ICREP is subject to
           the condition that although every care has been taken while uploading
           the correct information, yet in case of any inconsistency or error,
-          the version of ICREP Office and Cochin University shall prevail.
+          the version of ICREP Office and Cochin University shall prevail and encourage.
         </p>
       </div>
     </footer>
