@@ -16,12 +16,12 @@ const About = () => {
           experts in renewable energy.
         </p>
         <p>
-        ** Subject to changes made to these regulations from time to time by the University.
+        ** Subject to changes made  to these regulations from time to time by the University.
         </p>
       </section>
     </div>
     //embed pdf here
   );
-};
+}; 
 
 export default About;
