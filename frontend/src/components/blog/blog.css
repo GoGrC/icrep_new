@@ -1,34 +1,43 @@
 .blog img {
   width: 100%;
-  height: 100%;
+  height: auto; /* Maintain aspect ratio */
 }
+
 .blog .text {
   padding: 40px 30px;
+  background-color: #FFFFFF; /* White background for text area */
 }
+
 .blog h1 {
   font-weight: 500;
   font-size: 22px;
   line-height: 30px;
   margin: 20px 0;
   transition: 0.5s;
+  color: #231F20; /* Charcoal for headings */
 }
+
 .blog h1:hover {
-  color: #1eb2a6;
+  color: #8C1515; /* Cardinal Red on hover */
   cursor: pointer;
 }
+
 .blog span {
   text-transform: uppercase;
   font-weight: 500;
-  color: #1eb2a6;
+  color: #8C1515; /* Cardinal Red for labels */
 }
+
 .blog span label {
   margin-left: 10px;
-  color: grey;
+  color: grey; /* Standard grey for labels */
   font-size: 14px;
 }
+
 .blog span:nth-last-child(1) label {
-  color: #1eb2a6;
+  color: #8C1515; /* Cardinal Red for the last label */
 }
+
 .blog p {
-  color: grey;
+  color: #4D4F53; /* Cool Grey for paragraph text */
 }

@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #004d99; /* Header background color */
+  background-color: #8C1515; /* Cardinal Red for header background */
   padding: 10px 20px; /* Padding for header */
   color: #fff; /* White text color */
 }
@@ -23,19 +23,13 @@
   position: relative; /* Needed for absolute positioning of the dropdown */
 }
 
-.nav a  {
-  color: white; /* Link color */
+.nav a {
+  color: #FFCC00; /* Gold color for link text */
   text-decoration: none; /* Remove underline */
   font-weight: bold; /* Bold text */
   transition: color 0.3s; /* Smooth color transition */
 }
 
 .nav a:hover {
-  color: #ffcc00; /* Change color on hover */
+  color: #fff; /* Change color to white on hover for contrast */
 }
-
-
-
-
-
-

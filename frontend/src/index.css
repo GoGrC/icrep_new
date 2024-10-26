@@ -1,11 +1,12 @@
-:root{
-  --primary-bg:#242526;
-  --secondary-bg:#fff;
-  --primary-text-color:#555;
-  --secondary-text-color:#cecece;
-  --border-radius:8px;
+:root {
+  --primary-bg: #f8f8f8; /* Light background */
+  --secondary-bg: #8C1515; /* Cardinal Red for accents */
+  --primary-text-color: #555; /* Neutral text color */
+  --secondary-text-color: #cecece; /* Light grey for secondary text */
+  --border-radius: 8px;
   --speed: 500ms;
 }
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -13,6 +14,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--primary-bg); /* Use primary background */
 }
 
 code {
@@ -20,10 +22,15 @@ code {
     monospace;
 }
 
-ul{
-  list-style:none;
+ul {
+  list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
+  color: var(--secondary-bg); /* Cardinal Red links */
+}
+
+a:hover {
+  color: #ffcc00; /* Gold on hover */
 }
