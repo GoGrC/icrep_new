@@ -1,7 +1,5 @@
-/* src/components/Footer.css */
-
 .footer {
-  background-color: #002a5c; /* Footer background color */
+  background-color: #8C1515; /* Cardinal Red for footer background */
   color: #fff; /* White text color */
   padding: 20px 0; /* Padding for footer */
 }
@@ -21,6 +19,7 @@
 .quick-links h4,
 .contact-us h4 {
   margin-bottom: 10px; /* Space below headings */
+  color: #FFCC00; /* Gold color for headings to highlight them */
 }
 
 .quick-links ul {
@@ -33,12 +32,13 @@
 }
 
 .quick-links a {
-  color: #ffcc00; /* Link color */
+  color: #FFCC00; /* Gold color for links */
   text-decoration: none; /* Remove underline */
 }
 
 .quick-links a:hover {
   text-decoration: underline; /* Underline on hover */
+  color: #fff; /* White color on hover */
 }
 
 .map-container {
@@ -49,5 +49,6 @@
 .footer-bottom {
   text-align: center; /* Center the bottom text */
   padding: 10px 0; /* Padding for footer bottom */
-  background-color: #001d3f; /* Darker background for bottom */
+  background-color: #002a5c; /* Original dark blue for footer bottom */
+  color: #FFCC00; /* Gold text for contrast */
 }
