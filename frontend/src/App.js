@@ -1,30 +1,32 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Conference from "./pages/Conference";
-import Contact from "./pages/Contact";
-import Speakers from "./pages/Speakers";
-import Sponsors from "./pages/Sponsors";
-import Registration from "./pages/Registration";
+import "./App.css";
+import Header from "./components/common/header/Header";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import About from "./components/about/About";
+import CourseHome from "./components/allcourses/CourseHome";
+import Team from "./components/team/Team";
+import Pricing from "./components/pricing/Pricing";
+import Blog from "./components/blog/Blog";
+import Contact from "./components/contact/Contact";
+import Footer from "./components/common/footer/Footer";
+import Home from "./components/home/Home";
 
 function App() {
   return (
-    <Router>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/conference" element={<Conference />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/speakers" element={<Speakers />} />
-        <Route path="/sponsors" element={<Sponsors />} />
-        <Route path="/registration" element={<Registration />} />
-      </Routes>
-      <Footer />
-    </Router>
+    <>
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/courses" element={<CourseHome />} />
+          <Route path="/team" element={<Team />} />
+          <Route path="/pricing" element={<Pricing />} />
+          <Route path="/journal" element={<Blog />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Footer />
+      </Router>
+    </>
   );
 }
 
