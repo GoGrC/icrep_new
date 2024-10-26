@@ -1,5 +1,5 @@
 import React from "react"
-import { price } from "../../dummydata"
+import { price } from "../../../dummydata"
 
 const PriceCard = () => {
   return (
@@ -20,3 +20,4 @@ const PriceCard = () => {
 }
 
 export default PriceCard
+
