@@ -38,18 +38,18 @@
 .contentText a {
   display: inline-block;
   margin-top: 10px;
-  color: #1eb2a6;
+  color: #8C1515;
   font-weight: bold;
   text-decoration: none;
   transition: 0.3s;
 }
 
 .contentText a:hover {
-  color: #0f7b64;
+  color: #8C1515;
 }
 
 .homeCardContainer:hover {
-  background-color: #1eb2a6;
+  background-color: #8C1515;
   color: #fff;
   box-shadow: 0 5px 25px -2px rgba(0, 0, 0, 0.1);
 }

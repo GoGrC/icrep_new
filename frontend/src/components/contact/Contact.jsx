@@ -29,4 +29,4 @@ const Contact = () => {
   );
 }
 
-export default CourseWorkCard;
+export default Contact;
