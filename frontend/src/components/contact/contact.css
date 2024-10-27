@@ -1,9 +1,19 @@
-.contacts iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
+/* CourseWorkCard.css */
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 50%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
 }
 
+<<<<<<< HEAD
 .contacts .right {
   padding: 50px;
 }
@@ -66,4 +76,20 @@ form .flexSB input:nth-child(1) {
   .contacts .row {
     width: 100%;
   }
+=======
+.text-content {
+  flex: 1;
+  padding: 10px;
+  text-align: justify;
+}
+
+.map-container {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9;
+  border-left: 1px solid #ddd;
+>>>>>>> 313563d437e4f30bb39ddfcc35fc28219e842382
 }
