@@ -1,12 +1,11 @@
 .homecontainer {
-    display: flex; /* Use flexbox for horizontal alignment */
-    justify-content: space-between; /* Space out cards evenly */
-    gap: 20px; /* Optional: add some gap between the cards */
-    margin: 20px; /* Optional: add some margin around the container */
-  }
-  
-  .homeCardContainer {
-    flex: 1; /* Allow cards to grow equally */
-    min-width: 300px; /* Optional: set a minimum width */
-  }
-  
+  display: flex; /* Use flexbox for horizontal alignment */
+  justify-content: space-between; /* Space out cards evenly */
+  gap: 20px; /* Optional: add some gap between the cards */
+  margin: 20px; /* Optional: add some margin around the container */
+}
+
+.homeCardContainer {
+  flex: 1; /* Allow cards to grow equally */
+  min-width: 300px; /* Optional: set a minimum width */
+}
