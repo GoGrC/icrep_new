@@ -1,0 +1,44 @@
+/* LibraryInfo.css */
+
+.library-container {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    color: red;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .paragraph {
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  .subtitle {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .mission-list {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  .mission-list li {
+    margin-bottom: 8px;
+    text-align: justify;
+  }
+  

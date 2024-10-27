@@ -1,0 +1,54 @@
+.footer {
+  background-color: #8C1515; /* Cardinal Red for footer background */
+  color: #fff; /* White text color */
+  padding: 20px 0; /* Padding for footer */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around; /* Distribute space between sections */
+  padding: 20px; /* Padding for footer content */
+}
+
+.quick-links,
+.contact-us {
+  flex: 1; /* Allow each section to grow equally */
+  margin: 0 20px; /* Margin between sections */
+}
+
+.quick-links h4,
+.contact-us h4 {
+  margin-bottom: 10px; /* Space below headings */
+  color: #FFCC00; /* Gold color for headings to highlight them */
+}
+
+.quick-links ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+}
+
+.quick-links li {
+  margin: 5px 0; /* Space between list items */
+}
+
+.quick-links a {
+  color: #FFCC00; /* Gold color for links */
+  text-decoration: none; /* Remove underline */
+}
+
+.quick-links a:hover {
+  text-decoration: underline; /* Underline on hover */
+  color: #fff; /* White color on hover */
+}
+
+.map-container {
+  text-align: center; /* Center the map */
+  margin: 20px 0; /* Space around the map */
+}
+
+.footer-bottom {
+  text-align: center; /* Center the bottom text */
+  padding: 10px 0; /* Padding for footer bottom */
+  background-color: #002a5c; /* Original dark blue for footer bottom */
+  color: #FFCC00; /* Gold text for contrast */
+}

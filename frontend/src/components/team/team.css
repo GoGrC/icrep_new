@@ -1,13 +1,16 @@
 .team .items {
   transition: 0.5s;
 }
+
 .team .img {
   position: relative;
 }
+
 .team img {
   width: 100%;
   height: 100%;
 }
+
 .overlay {
   position: absolute;
   bottom: 0;
@@ -18,39 +21,48 @@
   opacity: 0;
   transition: 0.5s;
 }
+
 .overlay i {
-  background-color: #000;
+  background-color: #8C1515; /* Cardinal Red for icons */
   color: #fff;
   margin: 5px;
   transition: 0.5s;
 }
+
 .team .details {
   padding: 30px;
   text-align: center;
 }
+
 .team .details h2 {
   font-weight: 500;
   font-size: 20px;
+  color: #8C1515; /* Cardinal Red for team member names */
   transition: 0.5s;
 }
+
 .team .details p {
   font-size: 15px;
-  color: grey;
+  color: #555555; /* Darker grey for better readability */
   margin-top: 10px;
   transition: 0.5s;
 }
+
 .team .items:hover {
-  background-color: #1eb2a6;
+  background-color: #8C1515; /* Cardinal Red on hover */
   color: #fff;
   cursor: pointer;
 }
+
 .team .items:hover p {
-  color: #fff;
+  color: #fff; /* White text on hover */
 }
+
 .team .items:hover .overlay {
-  opacity: 1;
+  opacity: 1; /* Show overlay on hover */
 }
+
 .team .items:hover .overlay i:hover {
-  background-color: #1eb2a6;
-  color: #fff;
+  background-color: #fff; /* Change icon background on hover */
+  color: #8C1515; /* Cardinal Red text on icon hover */
 }

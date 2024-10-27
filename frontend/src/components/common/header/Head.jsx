@@ -8,6 +8,8 @@ const Head = () => {
           <div className='logo'>
             <span>COCHIN UNIVERSITY OF SCIENCE AND TECHNOLOGY</span>
             <h1>PROF. N. R. MADHAVA MENON INTERDISCIPLINARY CENTRE FOR RESEARCH ETHICS AND PROTOCOLS</h1>
+            <h3>COCHIN UNIVERSITY OF SCIENCE AND TECHNOLOGY</h3>
+            <span>PROF.N.R.MADHAVA MENON INTERDISCIPLINARY CENTRE FOR RESEARCH ETHICS AND PROTOCOLS</span>
           </div>
 
           <div className='social'>

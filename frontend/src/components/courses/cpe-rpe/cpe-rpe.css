@@ -1,0 +1,19 @@
+/* CourseWorkProgram.css */
+
+.container {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    color: red;
+  }
+  
+  .paragraph {
+    margin: 20px auto;
+    max-width: 600px;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
