@@ -9,6 +9,7 @@ import Blog from "./components/blog/Blog";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/common/footer/Footer";
 import Home from "./components/home/Home";
+import Dirmssg from "./pages/Dirmssg";
 import LibraryInfo from "./components/library/library";
 import Journals from "./components/publications/journals/journals";
 import Ejournal from "./components/publications/ejournal/ejournal";
@@ -27,9 +28,10 @@ function App() {
           <Route path="/library" element={<LibraryInfo />} />
         
           <Route path="/contact" element={<Contact />} />
+          <Route path="/Dirmssg" element={<Dirmssg/>}/>
           <Route path="/ejournal" element={<Ejournal />} />
         </Routes>
-        <Footer />
+        <Footer/>
       </Router>
     </>
   );

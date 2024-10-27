@@ -13,7 +13,6 @@
   font-family: Arial, sans-serif;
 }
 
-<<<<<<< HEAD
 .contacts .right {
   padding: 50px;
 }
@@ -76,7 +75,6 @@ form .flexSB input:nth-child(1) {
   .contacts .row {
     width: 100%;
   }
-=======
 .text-content {
   flex: 1;
   padding: 10px;
@@ -91,5 +89,5 @@ form .flexSB input:nth-child(1) {
   justify-content: center;
   background-color: #f9f9f9;
   border-left: 1px solid #ddd;
->>>>>>> 313563d437e4f30bb39ddfcc35fc28219e842382
+}
 }
