@@ -23,10 +23,9 @@ const Hero = () => {
         }}
       >
         <div className="hero-content">
-
           <Heading
-            //subtitle="WELCOME TO ICREP"
-            //title="An inter university centre of excellence"
+          //subtitle="WELCOME TO ICREP"
+          //title="An inter university centre of excellence"
           />
           {/* <p className="hero-quote">
           {/* <Heading title="An inter university centre of excellence" /> */}
