@@ -12,11 +12,11 @@ import "./HomeCard1.css";
 
 const HomeCard1 = () => {
   return (
-    <Card sx={{ maxWidth: 345, margin: "auto" }}>
+    <Card sx={{ maxWidth: 345, margin: "auto", width: "700%" }}>
       <CardActionArea>
         <CardMedia
           component="img"
-          height="200"
+          height="255"
           image={blaf2}
           alt="Co-ordinator's Image"
         />

@@ -1,64 +1,100 @@
 .homeCardContainer {
-    padding: 50px;
-    background-color: #f9f9f9;
-    border-radius: 15px;
-    transition: 0.5s;
-    width: 700px;
+  padding: 50px;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  transition: 0.5s;
+  width: 700px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+.cardHeader {
+  text-align: center;
+}
+
+.homeCardContainer h2 {
+  font-size: 40px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.homeCardImage {
+  flex: 1;
+  width: 300px;
+  height: auto;
+  border-radius: 25px;
+
+  margin-bottom: 20px;
+}
+
+.contentText {
+  flex: 1;
+  margin-top: 15px;
+  text-align: justify; /* Makes the text align on both sides */
+}
+
+/* Increase the size of the text inside the contentText but not the link */
+.contentText p {
+  font-size: clamp(1.2rem, 2vw, 1.5rem); /* Adjust text size dynamically */
+  color: #333; /* Darker color for better readability */
+  line-height: 1.8;
+  margin-bottom: 20px; /* Space between text and "Read more" link */
+  transition: font-size 0.3s ease;
+}
+
+/* Optional hover effect for better engagement */
+
+/* Styling the "Read more" link separately */
+.contentText a {
+  display: inline-block;
+  color: #8c1515;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-size: 1rem; /* Keep link size smaller */
+}
+
+.contentText a:hover {
+  color: #0f7b64; /* Change color on hover */
+}
+
+.contentText p {
+  color: #333; /* Ensure text stays black */
+  line-height: 1.6;
+}
+
+.contentText a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #8c1515;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.contentText a:hover {
+  color: #0f7b64;
+}
+
+.homeCardContainer:hover {
+  background-color: #f6f6f6;
+  box-shadow: 0 5px 25px -2px rgba(0, 0, 0, 0.2);
+}
+
+/* Override hover effect for text to keep it black */
+.homeCardContainer:hover .contentText p {
+  color: #333; /* Text remains black on hover */
+}
+
+.homeCardContainer:hover h2 {
+  color: #333; /* Heading remains black on hover */
+}
+
+@media screen and (max-width: 768px) {
+  .homeCardContainer {
+    width: 100%; /* Ensure it is responsive */
   }
-  
-  .homeCardContainer h2 {
-    font-size: 40px;
-    text-align: left;
-    margin-bottom: 15px;
-  }
-  
+
   .homeCardImage {
-    width: 300px;
-    height: auto;
-    border-radius: 15px;
-    object-fit: cover;
-    margin-bottom: 20px; /* Add margin to space out from the paragraph */
+    width: 100%; /* Make the image responsive */
   }
-  
-  .contentText {
-    flex: 1;
-  }
-  
-  .contentText p {
-    color: #666;
-    line-height: 1.6;
-  }
-  
-  .contentText a {
-    display: inline-block;
-    margin-top: 10px;
-    color: #8C1515;
-    font-weight: bold;
-    text-decoration: none;
-    transition: 0.3s;
-  }
-  
-  .contentText a:hover {
-    color: #0f7b64;
-  }
-  
-  .homeCardContainer:hover {
-    background-color: #8C1515;
-    color: #fff;
-    box-shadow: 0 5px 25px -2px rgba(0, 0, 0, 0.1);
-  }
-  
-  .homeCardContainer:hover .contentText p {
-    color: #fff;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .homeCardContainer {
-      width: 100%; /* Ensure it is responsive */
-    }
-  
-    .homeCardImage {
-      width: 100%; /* Make the image responsive */
-    }
-  }
-  
+}

@@ -6,10 +6,12 @@ import "./HomeCard2.css";
 const HomeCard2 = () => {
   return (
     <div className="homeCardContainer">
-      <div>
-        <h2>Welcome to ICREP</h2>
+      <div className="cardHeader">
+        <h2 style={{ textAlign: "center" }}>Welcome to ICREP</h2>
       </div>
-      <img src={blaf} className="homeCardImage" />
+      {/* <div className="imageContainer">
+        <img src={blaf} className="homeCardImage" alt="Welcome to ICREP" />
+      </div> */}
       <div className="contentText">
         <p>
           Prof. N. R. Madhava Menon Interdisciplinary Centre for Research Ethics
@@ -22,7 +24,9 @@ const HomeCard2 = () => {
           the conduct of course work programs, certificate programs, issuance of
           research grants, conduct of lecture series etc.
         </p>
-        <Link to="/about">Read more</Link>
+        <Link to="/about" className="readMoreLink">
+          Read more
+        </Link>
       </div>
     </div>
   );
