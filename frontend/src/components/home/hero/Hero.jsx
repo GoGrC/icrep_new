@@ -3,7 +3,7 @@ import Heading from "../../common/heading/Heading";
 import "./Hero.css";
 
 const Hero = () => {
-  const [offset, setOffset] = useState(0);
+  const [offset, setOffset] = useState(-0.5);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -19,15 +19,18 @@ const Hero = () => {
       <section
         className="hero"
         style={{
-          backgroundPositionY: `${offset * 0.5}px`,
+          backgroundPositionY: `${offset * 0}px`,
         }}
       >
         <div className="hero-content">
+
           <Heading
             //subtitle="WELCOME TO ICREP"
             //title="An inter university centre of excellence"
           />
           {/* <p className="hero-quote">
+          {/* <Heading title="An inter university centre of excellence" /> */}
+          <p className="hero-quote">
             || तेजस्विनावधीतमस्तु ||
             <br />
             May learning illuminate us both
