@@ -1,40 +1,110 @@
+:root {
+  --primary-color: #8c1515;
+  --text-color: #ffffff;
+  --bg-overlay: rgba(0, 0, 0, 0.4);
+  --header-height: 80px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* Fixed Header */
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--header-height);
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero Section with Dynamic Parallax Effect */
 .hero {
+  height: 100vh;
   background-image: url("../../../../public/images/bg.webp");
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  padding-top: var(--header-height);
+  color: var(--text-color);
+  transition: background-position 0.2s ease-out;
+}
+
+.hero::before {
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1;
   width: 100%;
-  height: 100vh;
-  padding-top: 20%;
-  padding-right: 50px;
-  color: #FFFFFF; /* Changed to white for contrast */
+  height: 100%;
+  background: var(--bg-overlay);
+  z-index: -1;
 }
 
-.hero #heading h3 {
-  color: #8C1515; /* Cardinal Red for headings */
+/* Hero Content */
+.hero-content {
+  max-width: 800px;
+  z-index: 1;
+  padding: 20px;
 }
 
-.hero #heading {
-  text-align: left;
-  margin: 0;
-  padding: 0;
+/* Buttons */
+.hero-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
 }
 
-@media screen and (max-width: 768px) {
-  .margin {
-    height: 40vh;
-  }
+.primary-btn,
+.secondary-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+}
 
+.primary-btn {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.primary-btn:hover {
+  background-color: #7a1313;
+}
+
+.secondary-btn {
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.secondary-btn:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
   .hero {
-    background-position: right;
-    padding-top: 50%;
-    height: 80vh;
+    background-attachment: scroll;
   }
-
-  .hero .row {
-    width: 100%;
+  .hero-content {
+    padding: 0 20px;
   }
 }

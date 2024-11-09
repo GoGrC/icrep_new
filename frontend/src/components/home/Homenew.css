@@ -7,5 +7,5 @@
 
 .homeCardContainer {
   flex: 1; /* Allow cards to grow equally */
-  min-width: 300px; /* Optional: set a minimum width */
+  min-width: 200px; /* Optional: set a minimum width */
 }
