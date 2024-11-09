@@ -30,11 +30,11 @@ const Hero = () => {
           />
           {/* <p className="hero-quote">
           {/* <Heading title="An inter university centre of excellence" /> */}
-          <p className="hero-quote">
+          {/* <p className="hero-quote">
             || तेजस्विनावधीतमस्तु ||
             <br />
             May learning illuminate us both
-          </p> */}
+          </p> */ }
           <div className="hero-buttons" role="group" aria-label="Hero Actions">
             {/* <button className="primary-btn">
               GET STARTED NOW <span className="icon">→</span>
