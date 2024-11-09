@@ -4,7 +4,7 @@ const Head = () => {
   return (
     <>
       <section className="head">
-        <div className="container flexSB">
+        <div className="container flexSB upperhead">
           <div className="logo">
             <span>COCHIN UNIVERSITY OF SCIENCE AND TECHNOLOGY</span>
             <h1>
