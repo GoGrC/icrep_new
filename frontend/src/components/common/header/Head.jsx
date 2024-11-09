@@ -11,6 +11,9 @@ const Head = () => {
               PROF. N. R. MADHAVA MENON INTERDISCIPLINARY CENTRE FOR RESEARCH
               ETHICS AND PROTOCOLS
             </h1>
+            <h5 style={{ fontFamily: "italic" }}>
+              "An inter university centre of excellence"
+            </h5>
           </div>
 
           <div className="social">
