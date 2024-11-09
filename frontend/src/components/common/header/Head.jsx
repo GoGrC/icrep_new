@@ -15,13 +15,18 @@ const Head = () => {
               "An inter university centre of excellence"
             </h5>
           </div>
-
+{ <p className="hero-quote">
+            || तेजस्विनावधीतमस्तु ||
+            <br />
+            May learning illuminate us both
+          </p> 
+/* 
           <div className="social">
             <i className="fab fa-facebook-f icon"></i>
             <i className="fab fa-instagram icon"></i>
             <i className="fab fa-twitter icon"></i>
             <i className="fab fa-youtube icon"></i>
-          </div>
+          </div> */}
         </div>
       </section>
     </>
