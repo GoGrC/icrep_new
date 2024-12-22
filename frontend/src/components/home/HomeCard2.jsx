@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import blaf from "../../assets/welcometoicrep.png";
+//import blaf from "../../assets/welcometoicrep.png";
 import "./HomeCard2.css";
 
 const HomeCard2 = () => {

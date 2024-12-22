@@ -2,20 +2,20 @@ export const homeAbout = [
   {
     id: 1,
     cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
-    title: "Online Courses",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    title: "About us",
+    desc: "Prof. N. R. Madhava Menon Interdisciplinary Centre for Research Ethics and Protocols is an Inter University Centre of Excellence which undertakes research and academic programs in the field of bioethics as well as in all areas of application of research ethics. The Centre is situated in the main campus of Cochin University of Science and Technology, Kochi, Kerala, India.The Centre was launched on 10th of January, 2020 by Dr. Michael Levitt, 2013 Nobel Prize Winner in Chemistry. Since then, the Centre has been actively indulged in promoting its objectives with utmost excellence and perfection. The Centre endeavours to further expand its wings to innovative and promising areas of research and to set an example for other budding research institutions.The Centre is engaged in exploring the possibilities of collaborative research, teaching, and exchange of scholarship with institutes of international repute that specialise on Bioethics. The Centre’s activities seek to focus on particular niche areas where existence and awareness of scientific protocols is essential. The Centre tries to seek integrity in academic scientific pursuits by giving insights to the teaching, student and research community about the ethical rules and norms exiting in the realm of scientific research, thereby enhance the quality of scientific studies.",
   },
   {
     id: 1,
     cover: "https://img.icons8.com/ios/80/000000/diploma.png",
-    title: "Earn A Certificates",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    title: "Our Vision",
+    desc: "“Good Science needs to exist for nation and humanity to progress alike. We seek integrity in academic and scientific pursuits. For that end we recognise and reflect upon the ethical issues posed by the rapid advancement in science and technology with due respect to the human rights and fundamental freedoms. We respond to its impact and influence in human life, safety dignity and happiness by suggesting reforms to the existing norms and proposing new norms. We are not only giving insights to the teacher, student and the larger scientific research community about rules, norms and best practices but we foresee a humanity for the future who undertake responsible scientific pursuits”.",
   },
   {
     id: 1,
     cover: "https://img.icons8.com/ios/80/000000/athlete.png",
-    title: "Learn with Expert",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    title: "Our Mission",
+    desc: "To emerge as an International Centre of Academic Excellence for propagating ideas of ethical conduct of research pursuits thereby building a strong connect between society, research and innovation.To enhance knowledge on ethical challenges in scientific pursuit and the existing national, regional and global human rights commitmentsTo design academic and community-based programs so as to disseminate knowledge on bioethics both for the researcher and participant alike.To educate those engaged and employed in the production, use and dissemination of scientific knowledge the need for ethical conduct of research so as to create a sustainable tomorrow.",
   },
 ]
 export const awrapper = [
@@ -41,208 +41,32 @@ export const awrapper = [
     title: "COURSES",
   },
 ]
+
+
 export const coursesCard = [
   {
     id: 1,
     cover: "../images/courses/c1.png",
-    coursesName: "Introducing to Software Engineering",
-    courTeacher: [
-      {
-        dcover: "./images/back.webp",
-        name: "by John Smith",
-        totalTime: "50 lectures (190 hrs)",
-      },
-    ],
-    priceAll: "$100 All Course",
-    pricePer: "$15 per month",
+    coursesName: "Certificate program",
+    topage:"/CertifiedProgram"
   },
   {
     id: 2,
-    cover: "../images/courses/c2.png",
-    coursesName: "Enhancing Adobe Photoshop CC 2020 Skills",
-    courTeacher: [
-      {
-        dcover: "./images/back.webp",
-        name: "by Ram Gurung",
-        totalTime: "30 lectures (125 hrs)",
-      },
-    ],
-    priceAll: "$200 All Course",
-    pricePer: "$25 per month",
+    cover: "../images/courses/c1.png",
+    coursesName: "MBE",
+    topage:"/MBE"
+
   },
   {
     id: 3,
-    cover: "../images/courses/c3.png",
-    coursesName: "HTML, CSS, and Javascript for Web Developers",
-    courTeacher: [
-      {
-        dcover: "./images/back.webp",
-        name: "by Saroj Nepal",
-        totalTime: "50 lectures (50 hrs)",
-      },
-    ],
-    priceAll: "$50 All Course",
-    pricePer: "$5 per month",
-  },
-  {
-    id: 4,
-    cover: "../images/courses/c4.png",
-    coursesName: "Introducing to Programming with WordPress",
-    courTeacher: [
-      {
-        dcover: "./images/back.webp",
-        name: "by Prabin Thapa Mager",
-        totalTime: "20 lectures (20 hrs)",
-      },
-    ],
-    priceAll: "$30 All Course",
-    pricePer: "$3 per month",
-  },
-  {
-    id: 5,
-    cover: "../images/courses/c5.png",
-    coursesName: "Introducing to Programming with ReactJS",
-    courTeacher: [
-      {
-        dcover: "./images/back.webp",
-        name: "by Sunil Bishowkaram",
-        totalTime: "100 lectures (150 hrs)",
-      },
-    ],
-    priceAll: "$300 All Course",
-    pricePer: "$30 per month",
-  },
-  {
-    id: 6,
-    cover: "../images/courses/c6.png",
-    coursesName: "Learn Frontend Programming Language",
-    courTeacher: [
-      {
-        dcover: "./images/back.webp",
-        name: "by Sunil Bishowkaram",
-        totalTime: "200 lectures (300 hrs)",
-      },
-    ],
-    priceAll: "$500 All Course",
-    pricePer: "$80 per month",
-  },
-  {
-    id: 7,
-    cover: "../images/courses/c7.png",
-    coursesName: "Introducing to with HTML / CSS",
-    courTeacher: [
-      {
-        dcover: "./images/back.webp",
-        name: "by Price",
-        totalTime: "20 lectures (50 hrs)",
-      },
-    ],
-    priceAll: "$20 All Course",
-    pricePer: "$2 per month",
-  },
-  {
-    id: 8,
-    cover: "../images/courses/c8.png",
-    coursesName: "Introducing to with JAVA",
-    courTeacher: [
-      {
-        dcover: "./images/back.webp",
-        name: "by Petter",
-        totalTime: "80 lectures (200 hrs)",
-      },
-    ],
-    priceAll: "$200 All Course",
-    pricePer: "$40 per month",
-  },
-  {
-    id: 9,
-    cover: "../images/courses/c9.png",
-    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
-    courTeacher: [
-      {
-        dcover: "./images/back.webp",
-        name: "by Petter",
-        totalTime: "50 lectures (50 hrs)",
-      },
-    ],
-    priceAll: "$20 All Course",
-    pricePer: "$3 per month",
+    cover: "../images/courses/c1.png",
+    coursesName: "CPR-RPE",
+    topage: "/Cprerpe"
+
   },
 ]
-export const online = [
-  {
-    cover: "./images/courses/online/o1.png",
-    hoverCover: "./images/courses/online/o1.1.png",
-    courseName: "UI/UX Design Courses",
-    course: "25 Courses",
-  },
-  {
-    cover: "./images/courses/online/o2.png",
-    hoverCover: "./images/courses/online/o2.1.png",
-    courseName: "Art & Design",
-    course: "25 Courses",
-  },
-  {
-    cover: "./images/courses/online/o3.png",
-    hoverCover: "./images/courses/online/o3.1.png",
-    courseName: "Computer Science",
-    course: "10 Courses",
-  },
-  {
-    cover: "./images/courses/online/o4.png",
-    hoverCover: "./images/courses/online/o4.1.png",
-    courseName: "History & Archeologic",
-    course: "15 Courses",
-  },
-  {
-    cover: "./images/courses/online/o5.png",
-    hoverCover: "./images/courses/online/o5.1.png",
-    courseName: "Software Engineering",
-    course: "30 Courses",
-  },
-  {
-    cover: "./images/courses/online/o6.png",
-    hoverCover: "./images/courses/online/o6.1.png",
-    courseName: "Information Software",
-    course: "60 Courses",
-  },
-  {
-    cover: "./images/courses/online/o7.png",
-    hoverCover: "./images/courses/online/o7.1.png",
-    courseName: "Health & Fitness",
-    course: "10 Courses",
-  },
-  {
-    cover: "./images/courses/online/o8.png",
-    hoverCover: "./images/courses/online/o8.1.png",
-    courseName: "Marketing",
-    course: "30 Courses",
-  },
-  {
-    cover: "./images/courses/online/o9.png",
-    hoverCover: "./images/courses/online/o9.1.png",
-    courseName: "Graphic Design",
-    course: "80 Courses",
-  },
-  {
-    cover: "./images/courses/online/o10.png",
-    hoverCover: "./images/courses/online/o10.1.png",
-    courseName: "Music",
-    course: "120 Courses",
-  },
-  {
-    cover: "./images/courses/online/o11.png",
-    hoverCover: "./images/courses/online/o11.1.png",
-    courseName: "Business Administration",
-    course: "17 Courses",
-  },
-  {
-    cover: "./images/courses/online/o12.png",
-    hoverCover: "./images/courses/online/o12.1.png",
-    courseName: "Web Management",
-    course: "17 Courses",
-  },
-]
+
+
 export const team = [
   {
     cover: "./images/team/t1.webp",

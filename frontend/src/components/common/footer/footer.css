@@ -1,49 +1,12 @@
-.newletter {
-  background-color: #FFFFFF; /* White background for better contrast */
-  padding: 50px 0;
-  color: #333333; /* Darker text color for readability */
-}
-
-.newletter .right,
-.newletter .left {
-  padding-right: 50px;
-}
-
-.newletter h1 {
-  color: #8C1515; /* Cardinal Red for headings */
-  font-size: 30px;
-  font-weight: 500;
-  margin-bottom: 15px;
-}
-
-.newletter .right {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.newletter input {
-  width: 100%;
-  padding: 20px;
-  border: 1px solid #8C1515; /* Border color matches Cardinal Red */
-  outline: none;
-  height: 30px;
-}
-
-.newletter i {
-  padding: 12px;
-  color: #8C1515; /* Cardinal Red for the icon */
-  background-color: #FFFFFF; /* White background for icon */
-}
 
 footer {
   background-color: #F7F7F7; /* Light grey for footer background */
 }
 
 footer .container {
-  display: grid;
-  grid-template-columns: 3fr 2fr 2fr 4fr 3fr;
-  grid-gap: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 @media screen and (max-width: 768px) {

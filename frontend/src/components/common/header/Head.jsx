@@ -17,10 +17,18 @@ const Head = () => {
           </div>
 
           <div className="social">
-            <i className="fab fa-facebook-f icon"></i>
+
+            
+            {
+            <p className="hero-quote">
+            || तेजस्विनावधीतमस्तु ||
+            <br />
+            May learning illuminate us both
+          </p>
+            /* <i className="fab fa-facebook-f icon"></i>
             <i className="fab fa-instagram icon"></i>
             <i className="fab fa-twitter icon"></i>
-            <i className="fab fa-youtube icon"></i>
+            <i className="fab fa-youtube icon"></i> */}
           </div>
         </div>
       </section>

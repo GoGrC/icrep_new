@@ -5,13 +5,14 @@ import About from "./components/about/About";
 import CourseHome from "./components/allcourses/CourseHome";
 import Team from "./components/team/Team";
 import Pricing from "./components/home/pricing/Pricing"
-import Blog from "./components/blog/Blog";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/common/footer/Footer";
 import Home from "./components/home/Home";
 import Dirmssg from "./pages/Dirmssg";
+import CertifiedProgram from "./pages/CertifiedProgram";
+import Cprerpe from "./pages/Cperpe";
+import MBE from "./pages//MBE";
 import LibraryInfo from "./components/library/library";
-import Journals from "./components/publications/journals/journals";
 import Ejournal from "./components/publications/ejournal/ejournal";
 
 function App() {
@@ -29,6 +30,9 @@ function App() {
         
           <Route path="/contact" element={<Contact />} />
           <Route path="/Dirmssg" element={<Dirmssg/>}/>
+          <Route path="/CertifiedProgram" element={<CertifiedProgram/>}/>
+          <Route path="/Cprerpe" element={<Cprerpe/>}/>
+          <Route path="/MBE" element={<MBE/>}/>
           <Route path="/ejournal" element={<Ejournal />} />
         </Routes>
         <Footer/>

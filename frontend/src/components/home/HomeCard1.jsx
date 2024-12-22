@@ -14,7 +14,7 @@ const HomeCard1 = () => {
   return (
     <Card sx={{ maxWidth: 345, margin: "auto", width: "700%" }}>
       <CardActionArea>
-        <CardMedia
+        <CardMedia className="cardpic"
           component="img"
           height="255"
           image={blaf2}

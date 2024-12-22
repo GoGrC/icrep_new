@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link as RouteLink } from "react-router-dom";
+import { Link as ScrollLink } from 'react-scroll';
 import Head from "./Head";
 import "./header.css";
 
@@ -16,35 +17,35 @@ const Header = () => {
             onClick={() => setClick(false)}
           >
             <li>
-              <Link to="/">Home</Link>
+              <RouteLink to="/">Home</RouteLink>
             </li>
             <li>
-              <Link to="/about">About Us</Link>
+            <ScrollLink to="home-compo" smooth={true} duration={800} style={{cursor:"pointer"}}>About us</ScrollLink>
             </li>
             <li>
-              <Link to="/allcourses">Courses</Link>
+              <ScrollLink to="course-compo" smooth={true} duration={800} style={{cursor:"pointer"}}>Courses</ScrollLink>
             </li>
             <li>
-              <Link to="/team">Team</Link>
+              <RouteLink to="/team">Team</RouteLink>
             </li>
             <li>
-              <Link to="/activites">Activities</Link>
+              <RouteLink to="/activites">Activities</RouteLink>
             </li>
             <li>
-              <Link to="/library">Library</Link>
+              <RouteLink to="/library">Library</RouteLink>
             </li>
             <li>
-              <Link to="/publications">Publications</Link>
+              <RouteLink to="/publications">Publications</RouteLink>
             </li>
             <li>
-              <Link to="/downloads">Downloads</Link>
+              <RouteLink to="/downloads">Downloads</RouteLink>
             </li>
             <li>
-              <Link to="/contact">Contact Us</Link>
+              <RouteLink to="/contact">Contact Us</RouteLink>
             </li>
           </ul>
           <div className="start">
-            <div className="button">REGISTER</div>
+            <div className="button">ICREP</div>
           </div>
           <button className="toggle" onClick={() => setClick(!click)}>
             {click ? (
