@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Diirmssg from "./Diirmssg.css"
+
 
 const Dirmssg = () => {
   return (
-    <div>
+    <div className='hocontainer'>
       <h2>CO-ORDINATOR's Message</h2>
-      <div className='director-img'><img src=''></img></div>
+      <div className='director-img'><img src="https://icrepapi.cusat.ac.in/media/director/co-ordinator.png" width="200" height="200"/></div>
       <div className='Director Name'>Dr. Vani Kesari A.</div>
       <p>"The primary endeavor of this centre is to accentuate ethical conduct of research in all realms of knowledge especially scientific inquiries. 
         It attempts to create a group of students and scholars who would be responsible to find solutions to pressing ethical dilemmas in different facets of 

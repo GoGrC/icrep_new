@@ -11,7 +11,19 @@ import Home from "./components/home/Home";
 import Dirmssg from "./pages/Dirmssg";
 import CertifiedProgram from "./pages/CertifiedProgram";
 import Cprerpe from "./pages/Cperpe";
-import MBE from "./pages//MBE";
+import MBE from "./pages/MBE";
+
+
+import Lectureseries from "./pages/Lectureseries";
+import Shorttermproject from "./pages/Shorttermproject";
+import Summerschools from "./pages/Summerschools";
+import Visitingfaculty from "./pages/Visitingfaculty";
+import Workshops from "./pages/Workshops";
+import Researchgrants from "./pages/Researchgrants";
+
+import Downloads from "./pages/Downloads";
+
+
 import LibraryInfo from "./components/library/library";
 import Ejournal from "./components/publications/ejournal/ejournal";
 
@@ -27,7 +39,16 @@ function App() {
           <Route path="/team" element={<Team />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/library" element={<LibraryInfo />} />
-        
+
+          <Route path="/Lectureseries" element={<Lectureseries/>}/>
+          <Route path="/Shorttermprojects" element={<Shorttermproject/>}/>
+          <Route path="/Summerschools" element={<Summerschools/>}/>
+          <Route path="/Visitingfaculty" element={<Visitingfaculty/>}/>
+          <Route path="/Workshops" element={<Workshops/>}/>
+          <Route path="/Researchgrants" element={<Researchgrants/>}/>
+
+          <Route path="/Downloads" element={<Downloads/>}/>
+
           <Route path="/contact" element={<Contact />} />
           <Route path="/Dirmssg" element={<Dirmssg/>}/>
           <Route path="/CertifiedProgram" element={<CertifiedProgram/>}/>

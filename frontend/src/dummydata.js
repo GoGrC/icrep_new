@@ -60,7 +60,7 @@ export const coursesCard = [
   {
     id: 3,
     cover: "../images/courses/c1.png",
-    coursesName: "CPR-RPE",
+    coursesName: "CPE-RPE",
     topage: "/Cprerpe"
 
   },
@@ -131,6 +131,7 @@ export const price = [
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
 ]
+
 export const faq = [
   {
     title: "How to Enroll This Online Courses?",
@@ -213,26 +214,50 @@ export const blog = [
     cover: "../images/blog/b6.webp",
   },
 ]
+
+
+
 export const testimonal = [
   {
     id: 1,
-    name: "ROGER SCOTT",
-    post: "MARKETING MANAGER",
+    name: "LECTURE SERIES",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    cover: "./images/testo/t1.webp",
+    cover: "./images/courses/online/o13.png",
+    pageto:"/Lectureseries",
   },
   {
     id: 2,
-    name: "ROGER SCOTT",
-    post: "MARKETING MANAGER",
+    name: "SHORT TERM PROJECT STUDENT INITIATIVE",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    cover: "./images/testo/t2.webp",
+    cover: "./images/courses/online/o13.png",
+    pageto:"/Shorttermprojects",
   },
   {
     id: 3,
-    name: "ROGER SCOTT",
-    post: "MARKETING MANAGER",
+    name: "VISITING FACULTY PROGRAM",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    cover: "./images/testo/t3.webp",
+    cover: "./images/courses/online/o13.png",
+    pageto:"/Visitingfaculty",
+  },
+  {
+    id: 4,
+    name: "SUMMER SCHOOL INTERNSHIPS",
+    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    cover: "./images/courses/online/o13.png",
+    pageto:"/Summerschools",
+  },
+  {
+    id: 5,
+    name: "RESEARCH GRANTS FOR NEW INITIATIVE",
+    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    cover: "./images/courses/online/o13.png",
+    pageto:"/Researchgrants",
+  },
+  {
+    id: 6,
+    name: "WORKSHOPS, CONFERENCE,SEMINARS AND TRAINING PROGRAMS",
+    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    cover: "./images/courses/online/o13.png",
+    pageto:"/Workshops",
   },
 ]

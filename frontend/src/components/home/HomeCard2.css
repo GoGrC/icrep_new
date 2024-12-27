@@ -6,6 +6,11 @@
   width: 700px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   text-align: center;
+  height: fit-content;
+}
+
+h2{
+  color: #8c1515;
 }
 .cardHeader {
   text-align: center;
@@ -34,7 +39,7 @@
 
 /* Increase the size of the text inside the contentText but not the link */
 .contentText p {
-  font-size: clamp(1.2rem, 2vw, 1.5rem); /* Adjust text size dynamically */
+  font-size: clamp(1.2rem, 2vw, 1.3rem); /* Adjust text size dynamically */
   color: #333; /* Darker color for better readability */
   line-height: 1.8;
   margin-bottom: 20px; /* Space between text and "Read more" link */
@@ -83,10 +88,6 @@
 /* Override hover effect for text to keep it black */
 .homeCardContainer:hover .contentText p {
   color: #333; /* Text remains black on hover */
-}
-
-.homeCardContainer:hover h2 {
-  color: #333; /* Heading remains black on hover */
 }
 
 @media screen and (max-width: 768px) {

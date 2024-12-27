@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Heading from "../common/heading/Heading";
 import "../allcourses/courses.css";
 import { coursesCard } from "../../dummydata";
+import { useEffect } from "react";
 
 const HAbout = () => {
   return (
@@ -29,6 +30,7 @@ const HAbout = () => {
                     </div>
                   </div>
                   <Link to={val.topage}>
+                  
                     <button className="outline-btn">Know more</button>
                   </Link>
                 </div>

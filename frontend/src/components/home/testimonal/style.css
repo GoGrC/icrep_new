@@ -1,7 +1,10 @@
 .testimonal .items {
   padding: 30px;
   transition: 0.5s;
-  background-color: #FFFFFF; /* Use white as a base for items */
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  height: 200px;
 }
 
 .testimonal .img {
@@ -43,15 +46,10 @@
 }
 
 .testimonal .items:hover {
-  background-color: #8C1515; /* Cardinal Red for hover effect */
-  color: #fff;
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
   cursor: pointer;
 }
 
-.testimonal .items:hover span,
-.testimonal .items:hover p {
-  color: #FFFFFF; /* White for text on hover */
-}
 
 .testimonal .items:hover i {
   background-color: #FFFFFF; /* White background for icon on hover */

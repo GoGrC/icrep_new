@@ -25,17 +25,17 @@ const Header = () => {
             <li>
               <ScrollLink to="course-compo" smooth={true} duration={800} style={{cursor:"pointer"}}>Courses</ScrollLink>
             </li>
-            <li>
+            {/* <li>
               <RouteLink to="/team">Team</RouteLink>
-            </li>
+            </li> */}
             <li>
-              <RouteLink to="/activites">Activities</RouteLink>
+              <ScrollLink to="activities-compo" smooth={true} duration={800} style={{cursor:"pointer"}}>Activities</ScrollLink>
             </li>
             <li>
               <RouteLink to="/library">Library</RouteLink>
             </li>
             <li>
-              <RouteLink to="/publications">Publications</RouteLink>
+              <RouteLink to="https://icrep.cusat.ac.in/journal">Publications</RouteLink>
             </li>
             <li>
               <RouteLink to="/downloads">Downloads</RouteLink>

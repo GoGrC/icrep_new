@@ -4,7 +4,9 @@
 }
 
 
-
+h1{
+  color: #8C1515;
+}
 .items:hover{
   box-shadow: 0 0 11px rgba(33,33,33,.2); 
 

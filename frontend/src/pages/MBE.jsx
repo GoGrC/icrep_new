@@ -2,7 +2,7 @@ import React from 'react'
 
 const MBE = () => {
   return (
-    <div>
+    <div className='hocontainer'>
         <h1>Masters in Bioethics Program (MBE)</h1>
         <p>Masters in Bioethics is offered as a two year regular course consisting four semesters. 
             Admission to the course will be based on the performance of the candidate at the Common Admission Test (CAT), Group Discussion and 

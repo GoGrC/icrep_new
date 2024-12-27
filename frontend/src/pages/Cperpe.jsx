@@ -2,7 +2,7 @@ import React from 'react'
 
 const Cperpe = () => {
   return (
-    <div>
+    <div className='hocontainer'>
       <h1>Course work programs for M. Phil/ Ph. D scholars (CPE- RPE)</h1>
 
       <p>

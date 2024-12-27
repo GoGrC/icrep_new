@@ -2,7 +2,7 @@ import React from 'react'
 
 const certifiedProgram = () => {
   return (
-    <div>
+    <div className='hocontainer'>
         <h1>Advanced Certificate Program on Medical Law, Clinical Research and Bioethics</h1>
         <p>
         The course is offered as an online six months program which caters to the educational and informational needs of doctors, nurses, paramedics,

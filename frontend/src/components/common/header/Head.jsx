@@ -5,7 +5,9 @@ const Head = () => {
     <>
       <section className="head">
         <div className="container flexSB upperhead">
-          <div className="logo">
+          <div className="hd-logo">
+            <div className="director-img"><img src="https://www.lawctopus.com/wp-content/uploads/2024/07/Call-for-Papers-by-ICREP-Journal-of-Interdisciplinary-Studies.jpg" width="95px" height="90px"/></div>
+            <div className="divider">
             <span>COCHIN UNIVERSITY OF SCIENCE AND TECHNOLOGY</span>
             <h1>
               PROF. N. R. MADHAVA MENON INTERDISCIPLINARY CENTRE FOR RESEARCH
@@ -14,6 +16,7 @@ const Head = () => {
             <h5 style={{ fontFamily: "italic" }}>
               "An inter university centre of excellence"
             </h5>
+            </div>
           </div>
 
           <div className="social">
